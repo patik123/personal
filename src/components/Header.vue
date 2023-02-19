@@ -12,15 +12,16 @@
               <g-link
                 to="/"
                 class="navbar-brand text-gray-900 dark:text-gray-100"
-                aria-label="ThePatik logo"
+                aria-label="Hey Hygge"
                 ><g-image
-                  alt="ThePatik"
-                  title="ThePatik"
+                  alt="Hey Hygge"
+                  title="Hey Hygge"
                   src="~/favicon.png"
                   width="32"
                   height="32"
                   class="h-8 w-auto rounded sm:h-10"
               /></g-link>
+              <span class="ml-2">Hey Hygge</span>
               <div class="-mr-2 flex items-center md:hidden">
                 <button
                   aria-label="Open Menu"

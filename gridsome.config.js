@@ -2,7 +2,7 @@ const tailwind = require("tailwindcss");
 const autoprefixer = require("autoprefixer");
 const postcssPlugins = [tailwind(), autoprefixer()];
 module.exports = {
-  siteName: "Patrick's world",
+  siteName: "Hey Hygge",
   plugins: [],
   css: {
     loaderOptions: {
