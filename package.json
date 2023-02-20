@@ -8,6 +8,8 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,vue}\""
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",

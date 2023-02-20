@@ -11,22 +11,22 @@
             <div class="flex items-center justify-between w-full md:w-auto">
               <g-link
                 to="/"
-                class="navbar-brand text-gray-900 dark:text-gray-100"
-                aria-label="Hey Hygge"
+                class="navbar-brand text-slate-900 dark:text-slate-100"
+                aria-current="page"
                 ><g-image
-                  alt="Hey Hygge"
-                  title="Hey Hygge"
+                  :alt="$static.metadata.siteName"
                   src="~/favicon.png"
                   width="32"
                   height="32"
-                  class="h-8 w-auto rounded sm:h-10"
+                  quality="100"
+                  class="w-auto rounded sm:h-10"
               /></g-link>
-              <span class="ml-2">Hey Hygge</span>
+              <span class="ml-2"> {{ $static.metadata.siteName }} </span>
               <div class="-mr-2 flex items-center md:hidden">
                 <button
                   aria-label="Open Menu"
                   type="button"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:bg-gray-100 dark:text-gray-100 dark-hover:bg-gray-800 dark-focus:bg-gray-800 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  class="inline-flex items-center justify-center p-2 rounded-md text-slate-900 hover:bg-slate-100 dark:text-slate-100 dark:hover:text-slate-100 focus:outline-none focus:bg-slate-100 focus:text-slate-500 transition duration-150 ease-in-out"
                   @click="menuShowHide"
                 >
                   <svg
@@ -50,7 +50,7 @@
           <div class="hidden md:block">
             <g-link
               to="/blog"
-              class="font-medium text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 dark:focus:text-gray-100 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              class="font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 dark:focus:slate-slate-100 focus:outline-none focus:text-slate-900 transition duration-150 ease-in-out"
             >
               Blog
             </g-link>
@@ -75,15 +75,14 @@
                   class="text-gray-900 dark:text-gray-100"
                   aria-current="page"
                   ><g-image
-                    alt="ThePatik"
-                    title="ThePatik"
+                    :alt="$static.metadata.siteName"
                     src="~/favicon.png"
                     width="32"
                     height="32"
-                    class="h-8 w-auto rounded"
+                    class="w-auto rounded"
                 /></g-link>
               </div>
-              <div class="-mr-2">
+              <div class="mr-2">
                 <button
                   aria-label="Close Menu"
                   type="button"
@@ -108,7 +107,7 @@
             <div class="px-2 pt-2 pb-3">
               <g-link
                 to="/blog"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-gray-900 hover:bg-gray-100 dark:hover:text-gray-100 dark:hover:bg-gray-900 dark:focus:bg-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition duration-150 ease-in-out"
+                class="block px-3 py-2 rounded-md text-base font-medium text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
                 >Blog</g-link
               >
             </div>
@@ -119,6 +118,13 @@
   </div>
 </template>
 
+<static-query>
+query {
+  metadata {
+    siteName
+  }
+}
+</static-query>
 <script>
 import ThemeSwitcher from "./ThemeSwitcher.vue";
 export default {

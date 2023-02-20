@@ -3,6 +3,7 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   darkMode: "class",
   purge: {
+    enabled: process.env.NODE_ENV === "production",
     content: [
       "./src/**/*.vue",
       "./src/**/*.js",
