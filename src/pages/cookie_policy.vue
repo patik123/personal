@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <div class="px-5 lg:px-8 lg:flex lg:content-center">
+    <div class="px-5 lg:px-8">
       <article
-        class="prose prose-sm dark:prose-invert lg:max-w-none"
+        class="prose prose-sm dark:prose-invert max-w-none"
         v-html="$static.posts.edges[0].node.content"
       ></article>
     </div>
@@ -12,15 +12,15 @@
 <static-query>
 query {
   posts:  allContent(filter: { title: {eq: "Politika piškotkov"}}) {
-     edges {node{
-      id
-      content
-      title
-    }
+     edges {
+      node{
+        id
+        content
+        title
+      }
     }
   }
 }
-
 </static-query>
 
 <script>

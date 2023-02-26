@@ -1,13 +1,26 @@
 <template>
   <Layout>
-    <div class="w-full h-full">
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-bold">O blogu</h1>
-      </div>
+    <div class="px-5 lg:px-8">
+      <article
+        class="prose prose-sm dark:prose-invert max-w-none"
+        v-html="$static.posts.edges[0].node.content"
+      ></article>
     </div>
   </Layout>
 </template>
-
+<static-query>
+query {
+  posts:  allContent(filter: { title: {eq: "O blogu"}}) {
+     edges {
+      node{
+        id
+        content
+        title
+      }
+    }
+  }
+}
+</static-query>
 <script>
 export default {
   metaInfo: { titleTemplate: "Hej Hygge" },
