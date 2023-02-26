@@ -18,6 +18,14 @@ module.exports = {
         path: "./content/**/*.md",
       },
     },
+    {
+      use: 'gridsome-plugin-sentry',
+      options: {
+        dsn: process.env.GRIDSOME_SENTRY_DSN,
+        attachProps: true,
+        logErrors: process.env.NODE_ENV === 'development' // defaults to false, see below for further info
+      }
+    }
   ],
   css: {
     loaderOptions: {
