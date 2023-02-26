@@ -1,7 +1,10 @@
 <template>
   <Layout>
     <div class="px-5 lg:px-8 lg:flex lg:content-center">
-      <article class="prose prose-sm dark:prose-invert lg:max-w-none" v-html="$static.posts.edges[0].node.content"></article >
+      <article
+        class="prose prose-sm dark:prose-invert lg:max-w-none"
+        v-html="$static.posts.edges[0].node.content"
+      ></article>
     </div>
   </Layout>
 </template>

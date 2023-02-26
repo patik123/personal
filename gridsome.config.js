@@ -18,7 +18,6 @@ module.exports = {
         path: "./content/**/*.md",
       },
     },
-
   ],
   css: {
     loaderOptions: {
