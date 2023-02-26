@@ -11,6 +11,14 @@ module.exports = {
         path: "./blog/**/*.md",
       },
     },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Content",
+        path: "./content/**/*.md",
+      },
+    },
+
   ],
   css: {
     loaderOptions: {
