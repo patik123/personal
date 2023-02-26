@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-hidden">
     <div class="pt-6 pb-5">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
+      <div class="mx-auto px-4 sm:px-6">
         <nav
           class="relative flex items-center justify-between sm:h-10 md:justify-center"
         >
@@ -48,12 +48,22 @@
             </div>
           </div>
           <div class="hidden md:block">
+            <div class="flex items-center gap-4">
             <g-link
               to="/blog"
-              class="font-medium text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 dark:focus:slate-slate-100 focus:outline-none focus:text-slate-900 transition duration-150 ease-in-out"
+              class="font-medium text-slate-500 dark:text-slate-100 hover:text-slate-900 dark:hover:text-slate-100 dark:focus:text-slate-100 focus:outline-none focus:text-slate-900 transition duration-150 ease-in-out"
             >
               Blog
             </g-link>
+            <g-link
+              to="/about"
+              class="ml-8 font-medium text-slate-500 dark:text-slate-100 hover:text-slate-900 dark:hover:text-slate-100 dark:focus:slate-slate-100 focus:outline-none focus:text-slate-900 transition duration-150 ease-in-out"
+            >
+              O blogu
+            </g-link>
+            </div>
+
+
           </div>
           <ThemeSwitcher />
         </nav>
@@ -110,6 +120,12 @@
                 class="block px-3 py-2 rounded-md text-base font-medium text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
                 >Blog</g-link
               >
+
+              <g-link
+                to="/about"
+                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
+                >O blogu</g-link>
+
             </div>
           </div>
         </div>
