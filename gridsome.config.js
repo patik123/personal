@@ -23,7 +23,7 @@ module.exports = {
       options: {
         dsn: process.env.GRIDSOME_SENTRY_DSN,
         attachProps: true,
-        logErrors: process.env.NODE_ENV === 'development' // defaults to false, see below for further info
+        logErrors: process.env.NODE_ENV === 'development',
       }
     }
   ],
