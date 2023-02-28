@@ -10,6 +10,7 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",
     "gridsome-plugin-sentry": "^1.1.0",

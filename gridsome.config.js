@@ -3,6 +3,7 @@ const autoprefixer = require("autoprefixer");
 const postcssPlugins = [tailwind(), autoprefixer()];
 module.exports = {
   siteName: "Hej Hygge",
+  siteDescription: "Blog o načinu življenja v skandinavskem slogu.",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -19,13 +20,13 @@ module.exports = {
       },
     },
     {
-      use: 'gridsome-plugin-sentry',
+      use: "gridsome-plugin-sentry",
       options: {
         dsn: process.env.GRIDSOME_SENTRY_DSN,
         attachProps: true,
-        logErrors: process.env.NODE_ENV === 'development',
-      }
-    }
+        logErrors: process.env.NODE_ENV === "development",
+      },
+    },
   ],
   css: {
     loaderOptions: {
@@ -34,6 +35,7 @@ module.exports = {
       },
     },
   },
+
   templates: {
     BlogPost: "/blog/:slug",
   },

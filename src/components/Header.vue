@@ -19,6 +19,7 @@
                   width="32"
                   height="32"
                   quality="100"
+                  immediate="false"
                   class="w-auto rounded sm:h-10"
               /></g-link>
               <span class="ml-2"> {{ $static.metadata.siteName }} </span>

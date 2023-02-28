@@ -14,5 +14,5 @@ Piškotki, ki jih uporabljamo, so:
 
 | Piškotek | Namen                                     | Vrsta piškotka       | Trajanje |
 | -------- | ----------------------------------------- | -------------------- | -------- |
-| \_ga     | Uporablja se za razlikovanje uporabnikov. | Piškotek za sledenje | 2 leti   |
+|          |                                           | Piškotek za sledenje | 2 leti   |
 | \_gid    | Uporablja se za razlikovanje uporabnikov. | Piškotek za sledenje | 24 ur    |
