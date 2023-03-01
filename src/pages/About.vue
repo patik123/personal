@@ -2,7 +2,7 @@
   <Layout>
     <div class="px-5 lg:px-8">
       <article
-        class="prose prose-sm dark:prose-invert max-w-none"
+        class="prose mt-5 dark:prose-invert max-w-none prose-img:m-auto prose-img:rounded-lg prose-img:shadow-lg prose-img:mx-auto prose-img:my-8"
         v-html="$static.posts.edges[0].node.content"
       ></article>
     </div>

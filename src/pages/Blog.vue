@@ -15,7 +15,7 @@
           <g-image
             :src="post.node.blog_image"
             :alt="post.node.title"
-            class="h-56 w-full object-cover"
+            class="h-auto max-w-full"
           />
 
           <div class="p-4 sm:p-6">

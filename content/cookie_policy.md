@@ -6,8 +6,6 @@ lastmod: 26-02-2023
 draft: false
 ---
 
-# Politika piškotkov
-
 Na tej spletni strani uporabljamo piškotke. Piškotki so majhne datoteke, ki jih spletni strežniki pošljejo na vaš računalnik, ko obiščete spletno stran. Piškotki vsebujejo podatke, ki se uporabljajo za sledenje vašim aktivnostim na spletni strani. Vse informacije, ki jih zbiramo s pomočjo piškotkov, so anonimne in ne vsebujejo osebnih podatkov.
 
 Piškotki, ki jih uporabljamo, so:

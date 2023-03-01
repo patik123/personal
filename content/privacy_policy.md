@@ -5,5 +5,3 @@ slug: "privacy_policy"
 lastmod: 26-02-2023
 draft: false
 ---
-
-# Poltika zasebnosti

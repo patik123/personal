@@ -1,15 +1,16 @@
 ---
 title: "O blogu"
-date: 26-02-2023
+date: 01-03-2023
 slug: "about"
-lastmod: 26-02-2023
+lastmod: 01-03-2023
 draft: false
+tags: ["about", "hygge"]
 ---
 
-# Hej Hygge
-
-Hej hygge je moj blog o načinu življenja v Skaninaviji.
+**Hej hygge** je moj blog o načinu življenja v Skaninaviji.
 Najprej pa nekaj o meni. Sem 19 let star dijak, ki se ukvarja s programiranjem in spletnimi tehnologijami.
+
+![Hygge](/images/hygge_desk.jpg)
 
 Pred približno dvema letoma sem v roke dobil knjigo avtorja Meika Wikinga - "Hygge: The Danish Art of Living Well". Ta knjiga me je tako zelo navdušila, da sem se odločil, da bom živel po načelih hygge.
 
@@ -22,4 +23,7 @@ Najpomembejše v življenju je sreča. Skandinavci so eni najbolj srečnih ljudi
 
 Ime bloga je zelo preporsto Hej Hygge.
 Beseda "Hej" je skandinavski pozdrav, ki ga uporabljajo v vsakdanjem življenju. V slovenščini je to "Zdravo".
-Beseda "Hygge" je skandinavski izraz, ki pomeni "udobje".
+
+Beseda "Hygge" je skandinavski izraz, ki v resnici nima ustreznega prevoda v slovenščino. Vendar pa je v slovenščini najbolj primeren prevod "sproščenost, prijetnost, udobje".
+
+Upam, da vam bo blog všeč in da boste našli nekaj koristnih informacij ter spoznali skandinavski način življenja.

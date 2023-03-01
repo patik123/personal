@@ -1,8 +1,14 @@
 <template>
   <Layout>
     <div class="px-5 lg:px-8">
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-bold text-center mt-8 mb-3">
+          {{ $static.posts.edges[0].node.title }}
+        </h1>
+      </div>
+
       <article
-        class="prose prose-sm dark:prose-invert max-w-none"
+        class="prose mt-5 dark:prose-invert max-w-none"
         v-html="$static.posts.edges[0].node.content"
       ></article>
     </div>
