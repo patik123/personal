@@ -5,7 +5,7 @@
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "develop": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "SET NODE_OPTIONS=--openssl-legacy-provider && gridsome explore",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,vue}\""
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,vue,yml}\""
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
@@ -13,7 +13,9 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-sentry": "^1.1.0",
+    "netlify-cms": "^2.10.192",
     "postcss": "^8",
     "tailwindcss": "^3.2.7"
   },

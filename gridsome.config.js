@@ -20,6 +20,12 @@ module.exports = {
       },
     },
     {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`,
+      },
+    },
+    {
       use: "gridsome-plugin-sentry",
       options: {
         dsn: process.env.GRIDSOME_SENTRY_DSN,

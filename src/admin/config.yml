@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: "patik123/personal"
+  branch: "main"
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog-posts"
+    label: "Objave na blogu"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Naslov", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Slika", name: "blog_image", widget: "image" }
+      - { label: "Čas branja", name: "read_time", widget: "string" }
+      - { label: "Opis", name: "description", widget: "text" }
+      - { label: "SEO naslov", name: "seo_title", widget: "string" }
+      - { label: "SEO opis", name: "seo_description", widget: "text" }
+      - { label: "Vsebina", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Strani"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Naslov", name: "title", widget: "string" }
+      - { label: "Datum", name: "date", widget: "datetime" }
+      - { label: "Osnutek", name: "draft", widget: "boolean", default: false }
+      - { label: "Vsebina", name: "body", widget: "markdown" }
