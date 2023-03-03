@@ -27,7 +27,7 @@
                 <button
                   aria-label="Open Menu"
                   type="button"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-slate-900 hover:bg-slate-100 dark:text-slate-100 dark:hover:text-slate-100 focus:outline-none focus:bg-slate-100 focus:text-slate-500 transition duration-150 ease-in-out"
+                  class="inline-flex items-center justify-center p-2 rounded-md text-slate-900 hover:bg-slate-100 dark:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:bg-slate-100 focus:text-slate-500 transition duration-150 ease-in-out"
                   @click="menuShowHide"
                 >
                   <svg
@@ -116,13 +116,13 @@
             <div class="px-2 pt-2 pb-3">
               <g-link
                 to="/blog"
-                class="block px-3 py-2 rounded-md text-base font-medium text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
+                class="block px-3 py-2 rounded-md text-base font-medium dark:text-slate-100 text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
                 >Blog</g-link
               >
 
               <g-link
                 to="/about"
-                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
+                class="mt-1 block px-3 py-2 rounded-md text-base font-medium dark:text-slate-100 text-slate-900 hover:text-slate-800 hover:bg-slate-100 dark:hover:text-slate-100 dark:hover:bg-slate-900 dark:focus:bg-slate-900 focus:outline-none focus:text-slate-900 focus:bg-slate-100 transition duration-150 ease-in-out"
                 >O blogu</g-link
               >
             </div>
